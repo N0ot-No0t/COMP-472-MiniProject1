@@ -1,25 +1,39 @@
 **********************************************
 *****MultinomialNB default values, try 1******
 **********************************************
-[[108   0   3   0   2]
- [  2  62   2   0   1]
- [  0   0  86   0   0]
- [  0   0   0  94   0]
- [  0   1   1   1  82]]
+[[ 94   0   0   0   1]
+ [  1  81   0   0   2]
+ [  0   0  75   0   0]
+ [  0   0   0 101   0]
+ [  0   1   0   1  88]]
 
               precision    recall  f1-score   support
 
-           0       0.98      0.96      0.97       113
-           1       0.98      0.93      0.95        67
-           2       0.93      1.00      0.97        86
-           3       0.99      1.00      0.99        94
-           4       0.96      0.96      0.96        85
+           0       0.99      0.99      0.99        95
+           1       0.99      0.96      0.98        84
+           2       1.00      1.00      1.00        75
+           3       0.99      1.00      1.00       101
+           4       0.97      0.98      0.97        90
 
-    accuracy                           0.97       445
-   macro avg       0.97      0.97      0.97       445
-weighted avg       0.97      0.97      0.97       445
+    accuracy                           0.99       445
+   macro avg       0.99      0.99      0.99       445
+weighted avg       0.99      0.99      0.99       445
 
-Accuracy of model: 0.9707865168539326
-Macro-average F1: 0.9696326062420804
-Weighted-average F1: 0.970706463379887
+Accuracy of model: 0.9865168539325843
+Macro-average F1: 0.9865653761803417
+Weighted-average F1: 0.9864992782546991
+
+Prior probabilites:
+P(business) = 0.2292134831460674
+P(entertainment) = 0.17348314606741572
+P(politics) = 0.18741573033707865
+P(sport) = 0.22966292134831462
+P(tech) = 0.1802247191011236
+
 Size of vocabulary 29126
+Number of word tokens in business: 104098
+Number of word tokens in entertainment: 79234
+Number of word tokens in politics: 87105
+Number of word tokens in sport: 105150
+Number of word tokens in tech: 80955
+Number of word tokens in entire corpus: 456542
