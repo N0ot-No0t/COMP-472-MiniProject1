@@ -4,29 +4,29 @@
 **********************************************
 
 (b)
-[[ 99   0   2   0   1]
- [  1  78   0   0   2]
- [  0   0  84   0   1]
- [  0   0   0 101   0]
- [  0   1   0   0  75]]
+[[ 82   0   5   0   5]
+ [  0  80   3   0   3]
+ [  0   0  86   0   0]
+ [  0   0   0 100   0]
+ [  0   2   0   0  79]]
 
 (c)
               precision    recall  f1-score   support
 
-           0       0.99      0.97      0.98       102
-           1       0.99      0.96      0.97        81
-           2       0.98      0.99      0.98        85
-           3       1.00      1.00      1.00       101
-           4       0.95      0.99      0.97        76
+           0       1.00      0.89      0.94        92
+           1       0.98      0.93      0.95        86
+           2       0.91      1.00      0.96        86
+           3       1.00      1.00      1.00       100
+           4       0.91      0.98      0.94        81
 
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
+    accuracy                           0.96       445
+   macro avg       0.96      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
 
 (d)
-Accuracy of model: 0.9820224719101124
-Macro-average F1: 0.9810792191273456
-Weighted-average F1: 0.9820502405537095
+Accuracy of model: 0.9595505617977528
+Macro-average F1: 0.9581882868089766
+Weighted-average F1: 0.959491583796117
 
 (e)
 Prior probabilites:
@@ -37,35 +37,50 @@ P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
 (f)
-Size of vocabulary 29126
+Size of vocabulary 29421
 
 (g)
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
+Number of word tokens in business: 164663
+Number of word tokens in entertainment: 124893
+Number of word tokens in politics: 185208
+Number of word tokens in sport: 162953
+Number of word tokens in tech: 198640
 
 (h)
-Number of word tokens in entire corpus: 456542
+Number of word tokens in entire corpus: 836357
 
 (i)
-Number of words with frequency 0 in class business: 17509
-Percent of words with frequency 0 in class business: 60.11467417427728%
-Number of words with frequency 0 in class entertainment: 17731
-Percent of words with frequency 0 in class entertainment: 60.87687976378493%
-Number of words with frequency 0 in class politics: 18180
-Percent of words with frequency 0 in class politics: 62.418457735356725%
-Number of words with frequency 0 in class sport: 18818
-Percent of words with frequency 0 in class sport: 64.6089404655634%
-Number of words with frequency 0 in class tech: 17306
-Percent of words with frequency 0 in class tech: 59.41770239648424%
+Number of words with frequency 0 in class business: 17538
+Percent of words with frequency 0 in class business: 59.61048230855511%
+Number of words with frequency 0 in class entertainment: 17746
+Percent of words with frequency 0 in class entertainment: 60.317460317460316%
+Number of words with frequency 0 in class politics: 18201
+Percent of words with frequency 0 in class politics: 61.86397471194045%
+Number of words with frequency 0 in class sport: 18850
+Percent of words with frequency 0 in class sport: 64.06988205703409%
+Number of words with frequency 0 in class tech: 17323
+Percent of words with frequency 0 in class tech: 58.87971177050406%
 
 (j)
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
+Number of words with a frequency of 1: 10005
+Percent of words with a frequency of 1: 34.006322014887324%
 
 (k)
+business:
+	- log(P('stock'| business)) = -2.9835999131792605
+	- log(P('time'| business)) = -2.9661760212625206
+entertainment:
+	- log(P('stock'| entertainment)) = -4.795508102065107
+	- log(P('time'| entertainment)) = -2.8177844967762593
+politics:
+	- log(P('stock'| politics)) = -5.26765974196156
+	- log(P('time'| politics)) = -2.917411723627397
+sport:
+	- log(P('stock'| sport)) = -5.212062360330175
+	- log(P('time'| sport)) = -2.5857219929551323
+tech:
+	- log(P('stock'| tech)) = -4.519915456162864
+	- log(P('time'| tech)) = -2.8109283310693214
 
 
 (a)
@@ -74,29 +89,29 @@ Percent of words with a frequency of 1: 34.326718395934904%
 **********************************************
 
 (b)
-[[ 99   0   2   0   1]
- [  1  78   0   0   2]
- [  0   0  84   0   1]
- [  0   0   0 101   0]
- [  0   1   0   0  75]]
+[[ 82   0   5   0   5]
+ [  0  80   3   0   3]
+ [  0   0  86   0   0]
+ [  0   0   0 100   0]
+ [  0   2   0   0  79]]
 
 (c)
               precision    recall  f1-score   support
 
-           0       0.99      0.97      0.98       102
-           1       0.99      0.96      0.97        81
-           2       0.98      0.99      0.98        85
-           3       1.00      1.00      1.00       101
-           4       0.95      0.99      0.97        76
+           0       1.00      0.89      0.94        92
+           1       0.98      0.93      0.95        86
+           2       0.91      1.00      0.96        86
+           3       1.00      1.00      1.00       100
+           4       0.91      0.98      0.94        81
 
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
+    accuracy                           0.96       445
+   macro avg       0.96      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
 
 (d)
-Accuracy of model: 0.9820224719101124
-Macro-average F1: 0.9810792191273456
-Weighted-average F1: 0.9820502405537095
+Accuracy of model: 0.9595505617977528
+Macro-average F1: 0.9581882868089766
+Weighted-average F1: 0.959491583796117
 
 (e)
 Prior probabilites:
@@ -107,35 +122,50 @@ P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
 (f)
-Size of vocabulary 29126
+Size of vocabulary 29421
 
 (g)
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
+Number of word tokens in business: 164663
+Number of word tokens in entertainment: 124893
+Number of word tokens in politics: 185208
+Number of word tokens in sport: 162953
+Number of word tokens in tech: 198640
 
 (h)
-Number of word tokens in entire corpus: 456542
+Number of word tokens in entire corpus: 836357
 
 (i)
-Number of words with frequency 0 in class business: 17509
-Percent of words with frequency 0 in class business: 60.11467417427728%
-Number of words with frequency 0 in class entertainment: 17731
-Percent of words with frequency 0 in class entertainment: 60.87687976378493%
-Number of words with frequency 0 in class politics: 18180
-Percent of words with frequency 0 in class politics: 62.418457735356725%
-Number of words with frequency 0 in class sport: 18818
-Percent of words with frequency 0 in class sport: 64.6089404655634%
-Number of words with frequency 0 in class tech: 17306
-Percent of words with frequency 0 in class tech: 59.41770239648424%
+Number of words with frequency 0 in class business: 17538
+Percent of words with frequency 0 in class business: 59.61048230855511%
+Number of words with frequency 0 in class entertainment: 17746
+Percent of words with frequency 0 in class entertainment: 60.317460317460316%
+Number of words with frequency 0 in class politics: 18201
+Percent of words with frequency 0 in class politics: 61.86397471194045%
+Number of words with frequency 0 in class sport: 18850
+Percent of words with frequency 0 in class sport: 64.06988205703409%
+Number of words with frequency 0 in class tech: 17323
+Percent of words with frequency 0 in class tech: 58.87971177050406%
 
 (j)
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
+Number of words with a frequency of 1: 10005
+Percent of words with a frequency of 1: 34.006322014887324%
 
 (k)
+business:
+	- log(P('stock'| business)) = -2.9835999131792605
+	- log(P('time'| business)) = -2.9661760212625206
+entertainment:
+	- log(P('stock'| entertainment)) = -4.795508102065107
+	- log(P('time'| entertainment)) = -2.8177844967762593
+politics:
+	- log(P('stock'| politics)) = -5.26765974196156
+	- log(P('time'| politics)) = -2.917411723627397
+sport:
+	- log(P('stock'| sport)) = -5.212062360330175
+	- log(P('time'| sport)) = -2.5857219929551323
+tech:
+	- log(P('stock'| tech)) = -4.519915456162864
+	- log(P('time'| tech)) = -2.8109283310693214
 
 
 (a)
@@ -144,29 +174,29 @@ Percent of words with a frequency of 1: 34.326718395934904%
 **********************************************
 
 (b)
-[[ 97   0   3   0   2]
- [  1  78   0   0   2]
- [  0   0  84   0   1]
- [  0   0   0 101   0]
- [  0   0   0   0  76]]
+[[ 80   0   4   0   8]
+ [  1  83   0   0   2]
+ [  0   0  86   0   0]
+ [  0   0   0 100   0]
+ [  0   2   0   0  79]]
 
 (c)
               precision    recall  f1-score   support
 
-           0       0.99      0.95      0.97       102
-           1       1.00      0.96      0.98        81
-           2       0.97      0.99      0.98        85
-           3       1.00      1.00      1.00       101
-           4       0.94      1.00      0.97        76
+           0       0.99      0.87      0.92        92
+           1       0.98      0.97      0.97        86
+           2       0.96      1.00      0.98        86
+           3       1.00      1.00      1.00       100
+           4       0.89      0.98      0.93        81
 
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
+    accuracy                           0.96       445
+   macro avg       0.96      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
 
 (d)
-Accuracy of model: 0.9797752808988764
-Macro-average F1: 0.9792058255520496
-Weighted-average F1: 0.9798080264304628
+Accuracy of model: 0.9617977528089887
+Macro-average F1: 0.9604600434452436
+Weighted-average F1: 0.9615727928222523
 
 (e)
 Prior probabilites:
@@ -177,35 +207,50 @@ P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
 (f)
-Size of vocabulary 29126
+Size of vocabulary 29421
 
 (g)
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
+Number of word tokens in business: 164663
+Number of word tokens in entertainment: 124893
+Number of word tokens in politics: 185208
+Number of word tokens in sport: 162953
+Number of word tokens in tech: 198640
 
 (h)
-Number of word tokens in entire corpus: 456542
+Number of word tokens in entire corpus: 836357
 
 (i)
-Number of words with frequency 0 in class business: 17509
-Percent of words with frequency 0 in class business: 60.11467417427728%
-Number of words with frequency 0 in class entertainment: 17731
-Percent of words with frequency 0 in class entertainment: 60.87687976378493%
-Number of words with frequency 0 in class politics: 18180
-Percent of words with frequency 0 in class politics: 62.418457735356725%
-Number of words with frequency 0 in class sport: 18818
-Percent of words with frequency 0 in class sport: 64.6089404655634%
-Number of words with frequency 0 in class tech: 17306
-Percent of words with frequency 0 in class tech: 59.41770239648424%
+Number of words with frequency 0 in class business: 17538
+Percent of words with frequency 0 in class business: 59.61048230855511%
+Number of words with frequency 0 in class entertainment: 17746
+Percent of words with frequency 0 in class entertainment: 60.317460317460316%
+Number of words with frequency 0 in class politics: 18201
+Percent of words with frequency 0 in class politics: 61.86397471194045%
+Number of words with frequency 0 in class sport: 18850
+Percent of words with frequency 0 in class sport: 64.06988205703409%
+Number of words with frequency 0 in class tech: 17323
+Percent of words with frequency 0 in class tech: 58.87971177050406%
 
 (j)
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
+Number of words with a frequency of 1: 10005
+Percent of words with a frequency of 1: 34.006322014887324%
 
 (k)
+business:
+	- log(P('stock'| business)) = -2.9835999131792605
+	- log(P('time'| business)) = -2.9661760212625206
+entertainment:
+	- log(P('stock'| entertainment)) = -4.795508102065107
+	- log(P('time'| entertainment)) = -2.8177844967762593
+politics:
+	- log(P('stock'| politics)) = -5.26765974196156
+	- log(P('time'| politics)) = -2.917411723627397
+sport:
+	- log(P('stock'| sport)) = -5.212062360330175
+	- log(P('time'| sport)) = -2.5857219929551323
+tech:
+	- log(P('stock'| tech)) = -4.519915456162864
+	- log(P('time'| tech)) = -2.8109283310693214
 
 
 (a)
@@ -214,29 +259,29 @@ Percent of words with a frequency of 1: 34.326718395934904%
 **********************************************
 
 (b)
-[[ 99   0   2   0   1]
- [  1  78   0   0   2]
- [  0   0  84   0   1]
- [  0   0   0 101   0]
- [  0   1   0   0  75]]
+[[ 82   0   5   0   5]
+ [  0  80   3   0   3]
+ [  0   0  86   0   0]
+ [  0   0   0 100   0]
+ [  0   2   0   0  79]]
 
 (c)
               precision    recall  f1-score   support
 
-           0       0.99      0.97      0.98       102
-           1       0.99      0.96      0.97        81
-           2       0.98      0.99      0.98        85
-           3       1.00      1.00      1.00       101
-           4       0.95      0.99      0.97        76
+           0       1.00      0.89      0.94        92
+           1       0.98      0.93      0.95        86
+           2       0.91      1.00      0.96        86
+           3       1.00      1.00      1.00       100
+           4       0.91      0.98      0.94        81
 
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
+    accuracy                           0.96       445
+   macro avg       0.96      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
 
 (d)
-Accuracy of model: 0.9820224719101124
-Macro-average F1: 0.9810792191273456
-Weighted-average F1: 0.9820502405537095
+Accuracy of model: 0.9595505617977528
+Macro-average F1: 0.9581882868089766
+Weighted-average F1: 0.959491583796117
 
 (e)
 Prior probabilites:
@@ -247,34 +292,49 @@ P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
 (f)
-Size of vocabulary 29126
+Size of vocabulary 29421
 
 (g)
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
+Number of word tokens in business: 164663
+Number of word tokens in entertainment: 124893
+Number of word tokens in politics: 185208
+Number of word tokens in sport: 162953
+Number of word tokens in tech: 198640
 
 (h)
-Number of word tokens in entire corpus: 456542
+Number of word tokens in entire corpus: 836357
 
 (i)
-Number of words with frequency 0 in class business: 17509
-Percent of words with frequency 0 in class business: 60.11467417427728%
-Number of words with frequency 0 in class entertainment: 17731
-Percent of words with frequency 0 in class entertainment: 60.87687976378493%
-Number of words with frequency 0 in class politics: 18180
-Percent of words with frequency 0 in class politics: 62.418457735356725%
-Number of words with frequency 0 in class sport: 18818
-Percent of words with frequency 0 in class sport: 64.6089404655634%
-Number of words with frequency 0 in class tech: 17306
-Percent of words with frequency 0 in class tech: 59.41770239648424%
+Number of words with frequency 0 in class business: 17538
+Percent of words with frequency 0 in class business: 59.61048230855511%
+Number of words with frequency 0 in class entertainment: 17746
+Percent of words with frequency 0 in class entertainment: 60.317460317460316%
+Number of words with frequency 0 in class politics: 18201
+Percent of words with frequency 0 in class politics: 61.86397471194045%
+Number of words with frequency 0 in class sport: 18850
+Percent of words with frequency 0 in class sport: 64.06988205703409%
+Number of words with frequency 0 in class tech: 17323
+Percent of words with frequency 0 in class tech: 58.87971177050406%
 
 (j)
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
+Number of words with a frequency of 1: 10005
+Percent of words with a frequency of 1: 34.006322014887324%
 
 (k)
+business:
+	- log(P('stock'| business)) = -2.9835999131792605
+	- log(P('time'| business)) = -2.9661760212625206
+entertainment:
+	- log(P('stock'| entertainment)) = -4.795508102065107
+	- log(P('time'| entertainment)) = -2.8177844967762593
+politics:
+	- log(P('stock'| politics)) = -5.26765974196156
+	- log(P('time'| politics)) = -2.917411723627397
+sport:
+	- log(P('stock'| sport)) = -5.212062360330175
+	- log(P('time'| sport)) = -2.5857219929551323
+tech:
+	- log(P('stock'| tech)) = -4.519915456162864
+	- log(P('time'| tech)) = -2.8109283310693214
 
 
