@@ -1,29 +1,34 @@
+(a)
 **********************************************
 *****MultinomialNB default values, try 1******
 **********************************************
 
-[[101   0   4   0   0]
- [  1  69   2   0   1]
- [  0   0  75   0   0]
- [  1   0   0 119   0]
- [  0   0   1   0  71]]
+(b)
+[[ 99   0   2   0   1]
+ [  1  78   0   0   2]
+ [  0   0  84   0   1]
+ [  0   0   0 101   0]
+ [  0   1   0   0  75]]
 
+(c)
               precision    recall  f1-score   support
 
-           0       0.98      0.96      0.97       105
-           1       1.00      0.95      0.97        73
-           2       0.91      1.00      0.96        75
-           3       1.00      0.99      1.00       120
-           4       0.99      0.99      0.99        72
+           0       0.99      0.97      0.98       102
+           1       0.99      0.96      0.97        81
+           2       0.98      0.99      0.98        85
+           3       1.00      1.00      1.00       101
+           4       0.95      0.99      0.97        76
 
     accuracy                           0.98       445
    macro avg       0.98      0.98      0.98       445
 weighted avg       0.98      0.98      0.98       445
 
-Accuracy of model: 0.9775280898876404
-Macro-average F1: 0.9760651711001789
-Weighted-average F1: 0.9776826398273926
+(d)
+Accuracy of model: 0.9820224719101124
+Macro-average F1: 0.9810792191273456
+Weighted-average F1: 0.9820502405537095
 
+(e)
 Prior probabilites:
 P(business) = 0.2292134831460674
 P(entertainment) = 0.17348314606741572
@@ -31,43 +36,69 @@ P(politics) = 0.18741573033707865
 P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
+(f)
 Size of vocabulary 29126
+
+(g)
 Number of word tokens in business: 104098
 Number of word tokens in entertainment: 79234
 Number of word tokens in politics: 87105
 Number of word tokens in sport: 105150
 Number of word tokens in tech: 80955
+
+(h)
 Number of word tokens in entire corpus: 456542
+
+(i)
+Number of words with frequency 0 in class business: 17509
+Percent of words with frequency 0 in class business: 60.11467417427728%
+Number of words with frequency 0 in class entertainment: 17731
+Percent of words with frequency 0 in class entertainment: 60.87687976378493%
+Number of words with frequency 0 in class politics: 18180
+Percent of words with frequency 0 in class politics: 62.418457735356725%
+Number of words with frequency 0 in class sport: 18818
+Percent of words with frequency 0 in class sport: 64.6089404655634%
+Number of words with frequency 0 in class tech: 17306
+Percent of words with frequency 0 in class tech: 59.41770239648424%
+
+(j)
 Number of words with a frequency of 1: 9998
 Percent of words with a frequency of 1: 34.326718395934904%
 
+(k)
 
+
+(a)
 **********************************************
 *****MultinomialNB default values, try 2******
 **********************************************
 
-[[101   0   4   0   0]
- [  1  69   2   0   1]
- [  0   0  75   0   0]
- [  1   0   0 119   0]
- [  0   0   1   0  71]]
+(b)
+[[ 99   0   2   0   1]
+ [  1  78   0   0   2]
+ [  0   0  84   0   1]
+ [  0   0   0 101   0]
+ [  0   1   0   0  75]]
 
+(c)
               precision    recall  f1-score   support
 
-           0       0.98      0.96      0.97       105
-           1       1.00      0.95      0.97        73
-           2       0.91      1.00      0.96        75
-           3       1.00      0.99      1.00       120
-           4       0.99      0.99      0.99        72
+           0       0.99      0.97      0.98       102
+           1       0.99      0.96      0.97        81
+           2       0.98      0.99      0.98        85
+           3       1.00      1.00      1.00       101
+           4       0.95      0.99      0.97        76
 
     accuracy                           0.98       445
    macro avg       0.98      0.98      0.98       445
 weighted avg       0.98      0.98      0.98       445
 
-Accuracy of model: 0.9775280898876404
-Macro-average F1: 0.9760651711001789
-Weighted-average F1: 0.9776826398273926
+(d)
+Accuracy of model: 0.9820224719101124
+Macro-average F1: 0.9810792191273456
+Weighted-average F1: 0.9820502405537095
 
+(e)
 Prior probabilites:
 P(business) = 0.2292134831460674
 P(entertainment) = 0.17348314606741572
@@ -75,43 +106,69 @@ P(politics) = 0.18741573033707865
 P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
+(f)
 Size of vocabulary 29126
+
+(g)
 Number of word tokens in business: 104098
 Number of word tokens in entertainment: 79234
 Number of word tokens in politics: 87105
 Number of word tokens in sport: 105150
 Number of word tokens in tech: 80955
+
+(h)
 Number of word tokens in entire corpus: 456542
+
+(i)
+Number of words with frequency 0 in class business: 17509
+Percent of words with frequency 0 in class business: 60.11467417427728%
+Number of words with frequency 0 in class entertainment: 17731
+Percent of words with frequency 0 in class entertainment: 60.87687976378493%
+Number of words with frequency 0 in class politics: 18180
+Percent of words with frequency 0 in class politics: 62.418457735356725%
+Number of words with frequency 0 in class sport: 18818
+Percent of words with frequency 0 in class sport: 64.6089404655634%
+Number of words with frequency 0 in class tech: 17306
+Percent of words with frequency 0 in class tech: 59.41770239648424%
+
+(j)
 Number of words with a frequency of 1: 9998
 Percent of words with a frequency of 1: 34.326718395934904%
 
+(k)
 
+
+(a)
 **********************************************
 *****MultinomialNB, 0.0001 smoothing******
 **********************************************
 
-[[101   0   3   0   1]
- [  1  70   2   0   0]
- [  0   0  75   0   0]
- [  1   0   0 119   0]
- [  0   0   1   0  71]]
+(b)
+[[ 97   0   3   0   2]
+ [  1  78   0   0   2]
+ [  0   0  84   0   1]
+ [  0   0   0 101   0]
+ [  0   0   0   0  76]]
 
+(c)
               precision    recall  f1-score   support
 
-           0       0.98      0.96      0.97       105
-           1       1.00      0.96      0.98        73
-           2       0.93      1.00      0.96        75
-           3       1.00      0.99      1.00       120
-           4       0.99      0.99      0.99        72
+           0       0.99      0.95      0.97       102
+           1       1.00      0.96      0.98        81
+           2       0.97      0.99      0.98        85
+           3       1.00      1.00      1.00       101
+           4       0.94      1.00      0.97        76
 
     accuracy                           0.98       445
    macro avg       0.98      0.98      0.98       445
 weighted avg       0.98      0.98      0.98       445
 
+(d)
 Accuracy of model: 0.9797752808988764
-Macro-average F1: 0.9787280594811975
-Weighted-average F1: 0.9798943323142937
+Macro-average F1: 0.9792058255520496
+Weighted-average F1: 0.9798080264304628
 
+(e)
 Prior probabilites:
 P(business) = 0.2292134831460674
 P(entertainment) = 0.17348314606741572
@@ -119,43 +176,69 @@ P(politics) = 0.18741573033707865
 P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
+(f)
 Size of vocabulary 29126
+
+(g)
 Number of word tokens in business: 104098
 Number of word tokens in entertainment: 79234
 Number of word tokens in politics: 87105
 Number of word tokens in sport: 105150
 Number of word tokens in tech: 80955
+
+(h)
 Number of word tokens in entire corpus: 456542
+
+(i)
+Number of words with frequency 0 in class business: 17509
+Percent of words with frequency 0 in class business: 60.11467417427728%
+Number of words with frequency 0 in class entertainment: 17731
+Percent of words with frequency 0 in class entertainment: 60.87687976378493%
+Number of words with frequency 0 in class politics: 18180
+Percent of words with frequency 0 in class politics: 62.418457735356725%
+Number of words with frequency 0 in class sport: 18818
+Percent of words with frequency 0 in class sport: 64.6089404655634%
+Number of words with frequency 0 in class tech: 17306
+Percent of words with frequency 0 in class tech: 59.41770239648424%
+
+(j)
 Number of words with a frequency of 1: 9998
 Percent of words with a frequency of 1: 34.326718395934904%
 
+(k)
 
+
+(a)
 **********************************************
 *****MultinomialNB, 0.9 smoothing******
 **********************************************
 
-[[101   0   4   0   0]
- [  1  69   2   0   1]
- [  0   0  75   0   0]
- [  1   0   0 119   0]
- [  0   0   1   0  71]]
+(b)
+[[ 99   0   2   0   1]
+ [  1  78   0   0   2]
+ [  0   0  84   0   1]
+ [  0   0   0 101   0]
+ [  0   1   0   0  75]]
 
+(c)
               precision    recall  f1-score   support
 
-           0       0.98      0.96      0.97       105
-           1       1.00      0.95      0.97        73
-           2       0.91      1.00      0.96        75
-           3       1.00      0.99      1.00       120
-           4       0.99      0.99      0.99        72
+           0       0.99      0.97      0.98       102
+           1       0.99      0.96      0.97        81
+           2       0.98      0.99      0.98        85
+           3       1.00      1.00      1.00       101
+           4       0.95      0.99      0.97        76
 
     accuracy                           0.98       445
    macro avg       0.98      0.98      0.98       445
 weighted avg       0.98      0.98      0.98       445
 
-Accuracy of model: 0.9775280898876404
-Macro-average F1: 0.9760651711001789
-Weighted-average F1: 0.9776826398273926
+(d)
+Accuracy of model: 0.9820224719101124
+Macro-average F1: 0.9810792191273456
+Weighted-average F1: 0.9820502405537095
 
+(e)
 Prior probabilites:
 P(business) = 0.2292134831460674
 P(entertainment) = 0.17348314606741572
@@ -163,190 +246,35 @@ P(politics) = 0.18741573033707865
 P(sport) = 0.22966292134831462
 P(tech) = 0.1802247191011236
 
+(f)
 Size of vocabulary 29126
+
+(g)
 Number of word tokens in business: 104098
 Number of word tokens in entertainment: 79234
 Number of word tokens in politics: 87105
 Number of word tokens in sport: 105150
 Number of word tokens in tech: 80955
+
+(h)
 Number of word tokens in entire corpus: 456542
+
+(i)
+Number of words with frequency 0 in class business: 17509
+Percent of words with frequency 0 in class business: 60.11467417427728%
+Number of words with frequency 0 in class entertainment: 17731
+Percent of words with frequency 0 in class entertainment: 60.87687976378493%
+Number of words with frequency 0 in class politics: 18180
+Percent of words with frequency 0 in class politics: 62.418457735356725%
+Number of words with frequency 0 in class sport: 18818
+Percent of words with frequency 0 in class sport: 64.6089404655634%
+Number of words with frequency 0 in class tech: 17306
+Percent of words with frequency 0 in class tech: 59.41770239648424%
+
+(j)
 Number of words with a frequency of 1: 9998
 Percent of words with a frequency of 1: 34.326718395934904%
 
-
-**********************************************
-*****MultinomialNB default values, try 1******
-**********************************************
-
-[[95  0  2  0  2]
- [ 1 83  0  0  1]
- [ 1  0 75  0  0]
- [ 0  0  1 94  0]
- [ 2  0  0  0 88]]
-
-              precision    recall  f1-score   support
-
-           0       0.96      0.96      0.96        99
-           1       1.00      0.98      0.99        85
-           2       0.96      0.99      0.97        76
-           3       1.00      0.99      0.99        95
-           4       0.97      0.98      0.97        90
-
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
-
-Accuracy of model: 0.9775280898876404
-Macro-average F1: 0.9777603714067802
-Weighted-average F1: 0.9775847998115054
-
-Prior probabilites:
-P(business) = 0.2292134831460674
-P(entertainment) = 0.17348314606741572
-P(politics) = 0.18741573033707865
-P(sport) = 0.22966292134831462
-P(tech) = 0.1802247191011236
-
-Size of vocabulary 29126
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
-Number of word tokens in entire corpus: 456542
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
-
-
-**********************************************
-*****MultinomialNB default values, try 2******
-**********************************************
-
-[[95  0  2  0  2]
- [ 1 83  0  0  1]
- [ 1  0 75  0  0]
- [ 0  0  1 94  0]
- [ 2  0  0  0 88]]
-
-              precision    recall  f1-score   support
-
-           0       0.96      0.96      0.96        99
-           1       1.00      0.98      0.99        85
-           2       0.96      0.99      0.97        76
-           3       1.00      0.99      0.99        95
-           4       0.97      0.98      0.97        90
-
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
-
-Accuracy of model: 0.9775280898876404
-Macro-average F1: 0.9777603714067802
-Weighted-average F1: 0.9775847998115054
-
-Prior probabilites:
-P(business) = 0.2292134831460674
-P(entertainment) = 0.17348314606741572
-P(politics) = 0.18741573033707865
-P(sport) = 0.22966292134831462
-P(tech) = 0.1802247191011236
-
-Size of vocabulary 29126
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
-Number of word tokens in entire corpus: 456542
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
-
-
-**********************************************
-*****MultinomialNB, 0.0001 smoothing******
-**********************************************
-
-[[96  0  1  0  2]
- [ 0 84  0  0  1]
- [ 2  0 74  0  0]
- [ 0  0  1 94  0]
- [ 0  0  0  0 90]]
-
-              precision    recall  f1-score   support
-
-           0       0.98      0.97      0.97        99
-           1       1.00      0.99      0.99        85
-           2       0.97      0.97      0.97        76
-           3       1.00      0.99      0.99        95
-           4       0.97      1.00      0.98        90
-
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
-
-Accuracy of model: 0.9842696629213483
-Macro-average F1: 0.9841403784378295
-Weighted-average F1: 0.9842838106203984
-
-Prior probabilites:
-P(business) = 0.2292134831460674
-P(entertainment) = 0.17348314606741572
-P(politics) = 0.18741573033707865
-P(sport) = 0.22966292134831462
-P(tech) = 0.1802247191011236
-
-Size of vocabulary 29126
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
-Number of word tokens in entire corpus: 456542
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
-
-
-**********************************************
-*****MultinomialNB, 0.9 smoothing******
-**********************************************
-
-[[95  0  2  0  2]
- [ 1 83  0  0  1]
- [ 1  0 75  0  0]
- [ 0  0  1 94  0]
- [ 2  0  0  0 88]]
-
-              precision    recall  f1-score   support
-
-           0       0.96      0.96      0.96        99
-           1       1.00      0.98      0.99        85
-           2       0.96      0.99      0.97        76
-           3       1.00      0.99      0.99        95
-           4       0.97      0.98      0.97        90
-
-    accuracy                           0.98       445
-   macro avg       0.98      0.98      0.98       445
-weighted avg       0.98      0.98      0.98       445
-
-Accuracy of model: 0.9775280898876404
-Macro-average F1: 0.9777603714067802
-Weighted-average F1: 0.9775847998115054
-
-Prior probabilites:
-P(business) = 0.2292134831460674
-P(entertainment) = 0.17348314606741572
-P(politics) = 0.18741573033707865
-P(sport) = 0.22966292134831462
-P(tech) = 0.1802247191011236
-
-Size of vocabulary 29126
-Number of word tokens in business: 104098
-Number of word tokens in entertainment: 79234
-Number of word tokens in politics: 87105
-Number of word tokens in sport: 105150
-Number of word tokens in tech: 80955
-Number of word tokens in entire corpus: 456542
-Number of words with a frequency of 1: 9998
-Percent of words with a frequency of 1: 34.326718395934904%
+(k)
 
 
