@@ -14,9 +14,11 @@ jupyter notebook
 
 ## Run Task 1
 1. Open Task1.ipynb
-2. Run All cells by clicking the Run button
+2. Make sure all imported modules from the first cell are installed
+3. Run All cells by clicking the Run button
 
 ## Run Task 2
 1. Open Task2.ipynb
-2. Run All cells by clicking the Run button
+2. Make sure all imported modules from the first cell are installed
+3. Run All cells by clicking the Run button
  
