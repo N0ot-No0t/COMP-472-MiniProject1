@@ -1,0 +1,20 @@
+11.
+
+a)
+If we look at the graph in BBC-distribution.pdf file, we can see that the different classes are balanced.
+This means that the different metrics used (i.e. precision, recall, F1-measure) won't have a greater importance
+in determining the performance of the model.
+
+
+b)
+From the bbc-performance.txt file, if we check the performance metrics for "MultinomialNB default values, try 1" and "MultinomialNB default values, try 2", we can
+see that they are the same for both since the model is trained from scratch with the same data.
+
+If we check the performance metrics for "MultinomialNB default values, try 1" and "MultinomialNB, 0.0001 smoothing", we can see that the performance is
+slightly better for the model with smoothing. This is due to the fact that some words that are in the vocabulary might not be in certain documents and could pull the performance results down
+since these documents will be ignored in the calculations.
+
+If we check the performance metrics for "MultinomialNB default values, try 1" and "MultinomialNB, 0.9 smoothing", we can see that the performance is 
+slightly better for the model with smoothing. This is because of the same reason as the "MultinomialNB, 0.0001 smoothing" model. But if we look closer, we can also see that
+if we compare the two MultinomialNB models with smoothing, we can see that for the accuracy and the weighted-average F1, the "MultinomialNB, 0.9 smoothing" model is better.
+Playing around with the value for the smoothing will give better or worse results, depending on the smoothing value.
