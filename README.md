@@ -1,4 +1,4 @@
-# COMP-472-MiniProjects
+# COMP-472-MiniProject1
 https://github.com/N0ot-No0t/COMP-472-MiniProject1
 
 ## Open the Mini-Project
