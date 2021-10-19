@@ -1,4 +1,5 @@
-# COMP-472-MiniProjects
+# COMP-472-MiniProject1
+https://github.com/N0ot-No0t/COMP-472-MiniProject1
 
 ## Open the Mini-Project
 1. Make sure anaconda is installed.
@@ -15,6 +16,9 @@ jupyter notebook
 ## Run Task 1
 1. Open Task1.ipynb
 2. Make sure all imported modules from the first cell are installed
+```powershell
+conda install --file requirements.txt
+```
 3. Run All cells by clicking the Run button
 
 ## Run Task 2
